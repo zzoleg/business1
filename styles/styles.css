@@ -105,14 +105,16 @@
     flex-direction: row;
     margin-right: 10px;
     width: 235px;
-    padding: 5px  5px  5px 40px;
+    padding: 5px  5px  5px 5px;
     background: white;
    
 }
 
 .icon-input {
-   color:red;
+   color: #6e6e6e;
    line-height: 37px;
+   margin: auto 17px ;
+   
 }
 
 .input {
@@ -560,6 +562,24 @@
     height: 300px;
     width: 215px;
     background-image: url(../pictures/step-1.png);
+}
+
+.step-item:nth-child(1) {
+    background: url(../pictures/step-1.png);
+    background-repeat: no-repeat;
+}
+
+.step-item:nth-child(2) {
+    background: url(../pictures/step-2.png);
+    background-repeat: no-repeat;
+}
+.step-item:nth-child(3) {
+    background: url(../pictures/step-3.png);
+    background-repeat: no-repeat;
+}
+.step-item:nth-child(4) {
+    background: url(../pictures/step-4.png);
+    background-repeat: no-repeat;
 }
 
 .step-item>h2{
