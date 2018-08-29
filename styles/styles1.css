@@ -1,0 +1,456 @@
+.header {
+    
+}
+
+.header-content {
+    display: flex;
+   
+    width: 1170px;
+    height: 93px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+  
+}
+
+.header-menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    
+  
+
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+  
+}
+
+.header-menu-link {
+   
+    
+}
+
+.menu-text {
+    padding: 10px 20px;
+    font-family: 'Times New Roman';
+    font-size: 13.5px;
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.menu-text:hover{
+    color: white;
+    background: #ffbb42;
+    cursor: pointer;
+
+}
+
+.form-content {
+
+    height: 308px;
+    background-color: #709dca;
+}
+
+.slogan {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    width: 1170px;
+}
+
+.slogan>h1 {
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+
+.slogan>h3 {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    line-height: 15px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 19px;
+}
+
+.form {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 1170px;
+    margin: auto;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    width: 235px;
+    padding: 5px  5px  5px 40px;
+    background: white;
+}
+
+.input {
+    display: flex;
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #868686;
+    height: 35px;
+    border: none;
+}
+
+.button {
+    
+    color: white;
+    background: #ffbb42;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 47px;
+    width: 210px;
+    border: none;
+    cursor: pointer;
+}
+
+.notebook-slider-field {
+   
+    height: 380px;
+    background: linear-gradient(to bottom, rgba(112,157,202,1) 0%,rgba(112,157,202,1) 74%,rgba(255,255,255,1) 74%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.notebook {
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 647px;
+    height: 345px;
+    margin: auto;
+    background-image: url(../pictures/notebook.png);
+}
+
+.screen-picture {
+    display: flex;
+    flex-direction: row;
+    width: 445px;
+    height: 264px;
+    overflow: hidden;
+    position: absolute;
+    padding-top: 19px;
+}
+
+.slider-navigation {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 55px;
+    padding-top: 21px;
+    margin: auto;
+}
+
+.slider-link {
+    border: 2px solid;
+    border-color: #dedfe0;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.slider-link:hover{
+    border-color: #1ca8dd;
+}
+
+.slider-link:active{
+    border-color: #1ca8dd;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    width: 1170px;
+    margin: auto;
+    padding-top: 103px;
+    padding-bottom: 160px;
+}
+
+.services>h2 {
+
+    
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #394b50;
+    line-height: 21px;
+    padding-bottom: 5px;
+}
+
+.services>h3 {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    line-height: 15px;
+    color: #394b50;
+    text-align: center;
+    line-height: 18px;
+}
+
+.services-detailed {
+    display: flex;
+    flex-direction: row;
+    padding-top: 93px;
+}
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 60px;
+}
+
+.services-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.icon-service-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-text>p {
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    color: #7b7b7b;
+    line-height: 19px;
+    height: 79px;
+    text-align: left;
+}
+
+.service-text>h3 {
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #394b50;
+    line-height: 12px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-us-field {
+    height: 623px;
+    background-color: #ffc155;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.about-us-picture {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 623px;
+    
+    background-image: url(../pictures/about-us.png);
+    background-repeat: no-repeat;
+    background-size: input;
+    background-position: right;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-us-text>h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 21px;
+    padding: 165px 0px 25px 80px;
+}
+
+.about-us-text>p {
+    font-family: 'Times New Roman';
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 19px;
+    padding-left: 80px;
+    width: 585px;
+}
+.about-us-button-container {
+    padding-top: 58px;
+    padding-left: 80px;
+}
+.about-us-button {
+
+    color: white;
+    background: #ffc155;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 44px;
+    width: 144px;
+    border: 1px solid #e7ad48;
+    cursor: pointer;
+}
+
+.prices-field {
+    height: 900px;
+    background-color: #e7edf3;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+
+}
+
+.prices-plans {
+    display: flex;
+    flex-direction: column;
+    padding-top: 136px;
+}
+
+.prices-plans>h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #394b50;
+    line-height: 21px;
+    padding-bottom: 5px;
+}
+
+.prices-plans>p {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    line-height: 15px;
+    color: #75888d;
+    text-align: center;
+    line-height: 18px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.plan {
+    display: flex;
+   
+    background: linear-gradient(to bottom, #e7edf3 0%,#e7edf3 6%, #ffffff 6%, #ffffff 94%, #e7edf3 94%, #e7edf3 100%); 
+    flex-direction: column;
+    width: 390px;
+    height: 500px;
+}
+
+.plan-top {
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 30px;
+}
+
+.plan-main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccd5df;
+   
+    
+    height: 440px;
+}
+
+.plan-bottom {
+    display: flex;
+    flex-direction: column;
+    
+    height: 30px;
+}
+
+.plan-main-container {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.plan-name {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: #818b95;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 
+
+}
+
+.plan-price {
+
+}
+
+.plan-period {
+
+}
+
+.plan-bonus {
+
+}
+
+.plan-botton-field {
+
+}
+
+.plan-button{
+
+}
+
+.plan:hover, 
+.plan:hover > .plan-main, 
+.plan:hover > .plan-top,  
+.plan:hover > .plan-bottom {
+    background: #709dca;
+    border: none;
+}
+
