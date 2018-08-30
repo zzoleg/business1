@@ -547,6 +547,7 @@
 }
 
 .steps {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -555,13 +556,50 @@
     padding-bottom: 95px;
 }
 
+.steps-image {
+    position: absolute;
+    rep
+}
+
 .step-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 300px;
     width: 215px;
-    background-image: url(../pictures/step-1.png);
+    
+}
+
+.narrow {
+    position: absolute;
+    left: 65%;
+    top: -5%;
+    height:200px;
+    width: 215px;
+}
+.narrow-transform {
+    position: absolute;
+    left: 35%;
+    top: -25%;
+    height:200px;
+    width: 215px;
+}
+
+.narrow {
+    background: url(../pictures/steps.png);
+    
+    background-repeat: no-repeat;
+    
+}
+
+.narrow-transform {
+    background: url(../pictures/steps.png);
+    
+    background-repeat: no-repeat;
+   
+    transform: rotate(180deg);
+    
 }
 
 .step-item:nth-child(1) {
@@ -569,6 +607,7 @@
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 20px;
+    
 }
 
 .step-item:nth-child(2) {
@@ -589,6 +628,8 @@
     background-position-x: 50%;
     background-position-y: 20px;
 }
+
+
 
 .step-item>h2{
     font-family: 'Times New Roman';
