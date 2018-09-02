@@ -34,7 +34,7 @@
 
 .menu-text {
     padding: 10px 20px;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 13.5px;
     text-transform: uppercase;
     color: #868686;
@@ -63,7 +63,7 @@
 }
 
 .slogan>h1 {
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 35px;
     font-weight: bold;
     text-transform: uppercase;
@@ -74,7 +74,7 @@
 }
 
 .slogan>h3 {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #ffffff;
@@ -116,7 +116,7 @@
 .input {
     display: flex;
     flex: 1;
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 13px;
     color: #868686;
     height: 35px;
@@ -131,7 +131,7 @@
     background: #ffbb42;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     height: 47px;
     width: 210px;
     border: none;
@@ -207,7 +207,7 @@
 .services-header>h2 {
 
     
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -217,7 +217,7 @@
 }
 
 .services-header>p {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #394b50;
@@ -283,7 +283,7 @@
 }
 
 .service-text>p {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 13px;
     color: #7b7b7b;
     line-height: 19px;
@@ -294,7 +294,7 @@
 
 .service-text>h3 {
     text-align: left;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-weight: bold;
     font-size: 16px;
     color: #394b50;
@@ -333,7 +333,7 @@
 }
 
 .about-us-text>h2 {
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -343,7 +343,7 @@
 }
 
 .about-us-text>p {
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 13px;
     color: #ffffff;
     line-height: 19px;
@@ -360,7 +360,7 @@
     background: #ffc155;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     height: 44px;
     width: 144px;
     border: 1px solid #e7ad48;
@@ -385,7 +385,7 @@
 }
 
 .prices-plans>h2 {
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -395,7 +395,7 @@
 }
 
 .prices-plans>p {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -452,7 +452,7 @@
 }
 
 .plan-name {
-    font-family: 'Lato Light';
+    font-family: 'Lato Light', sans-serif;
     font-size: 25px;
     color: #818b95;
     text-transform: uppercase;
@@ -461,7 +461,7 @@
 }
 
 .plan-price {
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 60px;
     color: #ffbb42;
     text-transform: uppercase;
@@ -478,7 +478,7 @@
 
 
 .plan-period {
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 20px;
     color: #ffbb42;
     text-transform: uppercase;
@@ -492,7 +492,7 @@
     justify-content: center;
     
     height: 40px;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     
     font-size: 13,5px;
     color: #b5bbc1;
@@ -543,7 +543,7 @@
 
 .steps-header>h2 {
     padding-top: 155px;
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
@@ -553,7 +553,7 @@
 }
 
 .steps-header>p {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -646,7 +646,7 @@
 
 
 .step-item>h2{
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #394b50;
@@ -657,7 +657,7 @@
 }
 
 .steps-item>p {
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 13px;
     line-height: 15px;
     color: #7b7b7b;
@@ -676,7 +676,7 @@
     width: 163px;
     height: 46px;
     text-transform: uppercase;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 13px;
     color: #ffffff;
     background-color: #ffbb42;
@@ -691,7 +691,7 @@
 
 .testemonials>h2 {
     padding-top: 140px;
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -702,7 +702,7 @@
 }
 
 .testemonials>p {
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #ffffff;
@@ -787,7 +787,7 @@
 
 .comment {
     position: relative;
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 13px;
     line-height: 20px;
     color: #7b7b7b;
@@ -798,7 +798,7 @@
 
 .comment::before {
     position: absolute;
-    font-family: 'Brandon Grotesque Black';
+    font-family: 'Brandon Grotesque Black', sans-serif;
     font-size: 30px;
     content: "\201C";
     left: -20px;
@@ -808,7 +808,7 @@
 
 .comment::after {
     position: absolute;
-    font-family: 'Brandon Grotesque Black';
+    font-family: 'Brandon Grotesque Black', sans-serif;
     font-size: 30px;
     content: "\201E";
     
@@ -818,7 +818,7 @@
 
 .client-name-position {
     text-transform: uppercase;
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 14px;
     
     color: #99a9ae;
@@ -844,7 +844,7 @@
 
 .contact-header>h2 {
     padding-top: 155px;
-    font-family: 'Gotham Black';
+    font-family: 'Gotham Black', sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -857,7 +857,7 @@
 
 .contact-header>p {
 
-    font-family: 'Open Sans Light Regular';
+    font-family: 'Open Sans Light Regular', sans-serif;
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -891,7 +891,7 @@
     background: #ffbb42;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     height: 49px;
     width: 219px;
     border: none;
@@ -934,7 +934,7 @@
 
 .Contacts-address>h2 {
     text-transform: uppercase;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: white;
@@ -945,7 +945,7 @@
 
 .Contacts-address>p {
     
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 15px;
     color: #aeb7ba;
     padding-bottom: 13px;
@@ -975,7 +975,7 @@
 }
 .footer-menu-text {
     padding: 10px 20px;
-    font-family: 'Lato Regular';
+    font-family: 'Lato Regular', sans-serif;
     font-size: 13.5px;
     text-transform: uppercase;
     color: #868686;
@@ -1056,7 +1056,7 @@
 }
 
 .footer-copyright>h2 {
-    font-family: 'Open Sans Regular';
+    font-family: 'Open Sans Regular', sans-serif;
     font-size: 15px;
     color: #ffffff;
     

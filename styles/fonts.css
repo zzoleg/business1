@@ -1,7 +1,7 @@
 @font-face {
     font-family:"Lato Regular";
-    src:url(..fonts/Lato-Regular.eot) format("eot"), 
-    url(..fonts/Lato-Regular.woff) format("woff");
+    src:url('..fonts/Lato-Regular.eot') format("eot"), 
+    url('..fonts/Lato-Regular.woff') format("woff");
     font-weight:normal;
     font-style:normal;
 }
@@ -9,29 +9,33 @@
     font-family: 'Lato Light';
     font-style: normal;
     font-weight: normal;
-    src: url(..fonts/Lato-Light.woff) format('woff');
+    src: url('..fonts/Lato-Light.woff') format('woff');
     }
-@font-face {
-    font-family: 'Gotham Black';
-    font-style: normal;
-    font-weight: normal;
-    src: url(..fonts/GothamBlackRegular.woff) format('woff');
-    }
+
+
+    @font-face {
+        font-family: 'Gotham Black';
+        font-style: normal;
+        font-weight: normal;
+        src: url('..fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('..fonts/gotham-black-webfont.woff') format('woff');
+        }
+
 @font-face {
     font-family: 'Open Sans Regular';
     font-style: normal;
     font-weight: normal;
-    src: url(..fonts/OpenSans-Regular-webfont_0.woff) format('woff');
+    src: url('..fonts/OpenSans-Regular-webfont_0.woff') format('woff');
 }
 @font-face {
     font-family: 'Open Sans Light Regular';
     font-style: normal;
     font-weight: normal;
-    src: url(..fonts/OpenSans-Light-webfont.woff) format('woff');
+    src: url('..fonts/OpenSans-Light-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'Brandon Grotesque Black';
     font-style: normal;
     font-weight: normal;
-    src: url(..fonts/brandon-grotesque.woff) format('woff');
+    src: url('..fonts/brandon-grotesque.woff') format('woff');
     }
