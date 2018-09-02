@@ -1,3 +1,4 @@
+@import url(fonts.css);
 
 .header-content {
     display: flex;
@@ -33,7 +34,7 @@
 
 .menu-text {
     padding: 10px 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 13.5px;
     text-transform: uppercase;
     color: #868686;
@@ -62,8 +63,9 @@
 }
 
 .slogan>h1 {
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 35px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
@@ -72,7 +74,7 @@
 }
 
 .slogan>h3 {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #ffffff;
@@ -114,7 +116,7 @@
 .input {
     display: flex;
     flex: 1;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans Light Regular';
     font-size: 13px;
     color: #868686;
     height: 35px;
@@ -129,7 +131,7 @@
     background: #ffbb42;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans Light Regular';
     height: 47px;
     width: 210px;
     border: none;
@@ -202,19 +204,20 @@
     padding-bottom: 160px;
 }
 
-.services>h2 {
+.services-header>h2 {
 
     
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #394b50;
     line-height: 21px;
     padding-bottom: 5px;
 }
 
-.services>h3 {
-    font-family: 'Times New Roman';
+.services-header>p {
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #394b50;
@@ -280,7 +283,7 @@
 }
 
 .service-text>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 13px;
     color: #7b7b7b;
     line-height: 19px;
@@ -291,7 +294,8 @@
 
 .service-text>h3 {
     text-align: left;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
+    font-weight: bold;
     font-size: 16px;
     color: #394b50;
     line-height: 12px;
@@ -329,8 +333,9 @@
 }
 
 .about-us-text>h2 {
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 21px;
@@ -338,7 +343,7 @@
 }
 
 .about-us-text>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 13px;
     color: #ffffff;
     line-height: 19px;
@@ -355,12 +360,13 @@
     background: #ffc155;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lato Regular';
     height: 44px;
     width: 144px;
     border: 1px solid #e7ad48;
     cursor: pointer;
 }
+
 
 .prices-field {
     height: 900px;
@@ -379,8 +385,9 @@
 }
 
 .prices-plans>h2 {
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #394b50;
     line-height: 21px;
@@ -388,7 +395,7 @@
 }
 
 .prices-plans>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -445,7 +452,7 @@
 }
 
 .plan-name {
-    font-family: 'Times New Roman';
+    font-family: 'Lato Light';
     font-size: 25px;
     color: #818b95;
     text-transform: uppercase;
@@ -454,7 +461,7 @@
 }
 
 .plan-price {
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 60px;
     color: #ffbb42;
     text-transform: uppercase;
@@ -471,7 +478,7 @@
 
 
 .plan-period {
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 20px;
     color: #ffbb42;
     text-transform: uppercase;
@@ -485,7 +492,7 @@
     justify-content: center;
     
     height: 40px;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     
     font-size: 13,5px;
     color: #b5bbc1;
@@ -536,7 +543,8 @@
 
 .steps-header>h2 {
     padding-top: 155px;
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
+    font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
     color: #394b50;
@@ -545,7 +553,7 @@
 }
 
 .steps-header>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -638,9 +646,9 @@
 
 
 .step-item>h2{
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 20px;
-    
+    font-weight: bold;
     color: #394b50;
     padding-top: 160px;
     text-align: center;
@@ -649,7 +657,7 @@
 }
 
 .steps-item>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 13px;
     line-height: 15px;
     color: #7b7b7b;
@@ -668,7 +676,7 @@
     width: 163px;
     height: 46px;
     text-transform: uppercase;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 13px;
     color: #ffffff;
     background-color: #ffbb42;
@@ -683,8 +691,9 @@
 
 .testemonials>h2 {
     padding-top: 140px;
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 21px;
@@ -693,7 +702,7 @@
 }
 
 .testemonials>p {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #ffffff;
@@ -778,7 +787,7 @@
 
 .comment {
     position: relative;
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 13px;
     line-height: 20px;
     color: #7b7b7b;
@@ -789,7 +798,7 @@
 
 .comment::before {
     position: absolute;
-    font-family: 'Times New Roman';
+    font-family: 'Brandon Grotesque Black';
     font-size: 30px;
     content: "\201C";
     left: -20px;
@@ -799,7 +808,7 @@
 
 .comment::after {
     position: absolute;
-    font-family: 'Times New Roman';
+    font-family: 'Brandon Grotesque Black';
     font-size: 30px;
     content: "\201E";
     
@@ -809,7 +818,7 @@
 
 .client-name-position {
     text-transform: uppercase;
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 14px;
     
     color: #99a9ae;
@@ -835,8 +844,9 @@
 
 .contact-header>h2 {
     padding-top: 155px;
-    font-family: 'Times New Roman';
+    font-family: 'Gotham Black';
     font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #394b50;
     line-height: 21px;
@@ -847,7 +857,7 @@
 
 .contact-header>p {
 
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Light Regular';
     font-size: 16px;
     line-height: 15px;
     color: #75888d;
@@ -881,7 +891,7 @@
     background: #ffbb42;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lato Regular';
     height: 49px;
     width: 219px;
     border: none;
@@ -924,8 +934,9 @@
 
 .Contacts-address>h2 {
     text-transform: uppercase;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 15px;
+    font-weight: bold;
     color: white;
     padding-bottom: 15px;
     text-align: center;
@@ -934,7 +945,7 @@
 
 .Contacts-address>p {
     
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 15px;
     color: #aeb7ba;
     padding-bottom: 13px;
@@ -964,7 +975,7 @@
 }
 .footer-menu-text {
     padding: 10px 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Lato Regular';
     font-size: 13.5px;
     text-transform: uppercase;
     color: #868686;
@@ -1045,7 +1056,7 @@
 }
 
 .footer-copyright>h2 {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans Regular';
     font-size: 15px;
     color: #ffffff;
     
